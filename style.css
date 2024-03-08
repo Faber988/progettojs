@@ -1,0 +1,25 @@
+table {
+    width: 900px;
+    border: 2px solid rgb(64, 243, 121);
+    
+}
+
+tr {
+    border: 2px solid rgb(64, 243, 121);
+    height: 60px;
+  
+}
+td {
+    border: 1px solid rgb(64, 243, 121);
+  
+    text-align: center;
+   
+}
+
+.giorni {
+    background-color: rgb(64, 243, 121);
+}
+
+td:hover {
+    background-color: rgb(64, 243, 121);
+}

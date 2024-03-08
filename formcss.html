@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Form CSS</title>
+    <link rel="stylesheet" href="formcss.css" type="text/css">
+    <script src="script_2.js"></script>
+</head>
+<body>
+    
+        <div class="container"> 
+        <h1 class="h1"> Ordina Subito</h1>
+        
+        <form action="https://vmsviluppo3.ecubing.it/corso/risposta.php" method="post">
+           <input type="text" id="name" name="name" placeholder="Nome">
+           <input type="text" id="surname" name="surname" placeholder="Cognome">
+           <input type="text" id="mail" name="mail" placeholder="E-mail">
+           <p class="menu"> Scegli uno dei nostri menu</p>
+           <select name="menu">
+            <option name="carne"> Carne </option>
+            <option name="pesce"> Pesce </option>
+            <option name="vegano"> Vegano </option>
+           </select>
+           <input type="submit" value="Invia" id="submit" name="submit">
+        </form>
+    </div>
+    
+</body>
+</html>

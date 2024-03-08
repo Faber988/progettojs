@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <h1> ORDINA SUBITO </h1>
+    <div class="main">
+    <form action="https://vmsviluppo3.ecubing.it/corso/risposta.php" method="post">
+        <br>
+    Nome  :  &nbsp <input type="text"name="Name" placeholder="Nome"> 
+    Cognome :  &nbsp <input type="text" name="surName" placeholder="Cognome"> <br> <br>
+    Telefono : &nbsp <input type="text" name="Number"> <br><br>
+    <label>Scegli Menu  : </label> <br> <br>
+   Carne <input type="radio" name="menu" value="Carne"> <br>
+   Pesce<input type="radio" name="menu" value="Carne"> <br>
+   Vegano <input type="radio" name="menu" value="Carne"> <br> <br> 
+
+   <label> Scegli le salse  : </label> <br> <br>
+ Maionese <input type="checkbox" name="Salse" value="Maionese"> <br>
+ Barbecue <input type="checkbox" name="Salse" value="Barbecue"> <br>
+ Ketchup <input type="checkbox" name="Salse" value="Ketchup"> <br> <br>
+
+   <label> orario consegna </label>
+<select name="salse" value="salse"> 
+    <option  value="19"> 19:00</option>
+    <option value="20">  20:00</option>
+    <option value="21"> 21:00</option>
+</select> <br> <br>
+
+<textarea name="note" rows="10" cols="20" placeholder="Note per il rider"></textarea>
+
+<input type="submit" value="ordina">
+    </form>
+    </div>
+</body>
+</html>
