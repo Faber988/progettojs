@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+.container {
+ 
+background-color: rgb(178, 4, 4);
+   padding: 0;
+   margin: auto;
+
+}
+
+ul {
+    background-color: rgb(235, 21, 21);
+    padding: 0;
+    margin: auto;
+  text-align: center;
+    padding: 25px;
+   
+ 
+}
+li {
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.banner{
+    background-image: url("food3.jpg");
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.insidebanner {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 700px;
+    
+    background-color: rgb(0,0,0,0.5);
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}

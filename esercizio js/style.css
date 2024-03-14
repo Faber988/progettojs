@@ -1,0 +1,24 @@
+.prodotto {
+
+  
+    background-color: red;
+   
+    border: 2px solid green; 
+   
+}
+
+
+
+#prodottijs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+  
+
+}
+
+img {
+
+    width: 100%;
+}
