@@ -1,4 +1,4 @@
-const prodotti = [
+/*const prodotti = [
   {
     titolo: "Scarpe Nike",
     descrizione:
@@ -79,4 +79,25 @@ prodotti.forEach((element) => {
   p.appendChild(prezzo);
 
   div.appendChild(p);
-});
+}); */
+
+let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
+
+ let stageEl = document.getElementById("stage")
+
+ let fightButton = document.getElementById("fight")
+
+ fightButton.addEventListener("click", function() {
+
+  let emoji = document.createElement("div")
+  let symbol = document.createTextNode(fighters[0])
+  emoji.appendChild(symbol)
+  stageEl.appendChild(emoji)
+ })
+
+
+
+
+
+ 
+
