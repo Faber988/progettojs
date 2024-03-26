@@ -1,4 +1,5 @@
 
+
     let table = document.getElementById("tabella1")
 
   /*  let cells =  table.getElementsByTagName("td");
@@ -53,3 +54,4 @@ function aggiungiRiga() {
   }
   tabella.appendChild(nuovaRiga);
 }
+
