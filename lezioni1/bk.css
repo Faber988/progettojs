@@ -1,0 +1,22 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid green;
+    background: brown;
+    float: left;
+    
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid green;
+    background: brown;
+    float: right;
+}
+
+#contenitore-esempio{
+    width: 700px;
+}
