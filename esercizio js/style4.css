@@ -1,0 +1,11 @@
+.red {
+    color: red;
+}
+
+table, tr,  td {
+
+    border: 2px solid brown;
+    border-collapse: collapse;
+    background-color: rgb(226, 218, 218);
+    padding: 10px;
+}
