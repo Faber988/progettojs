@@ -69,18 +69,35 @@ function populateDiv(obj) {
     let myH1 = document.createElement("h1");
     let myh3 = document.createElement("h3");
     let img = document.createElement("img");
+    let ul = document.createElement("ul")
+    let myP = document.createElement("p")
+    let myP2 = document.createElement("p")
     myH1.textContent = `Ristorante : ${i.Locale}`;
     myh3.textContent = `Tipologia cucina : ${i.tipologia}`;
+    myP.textContent = `${i.Indirizzo}`;
+    myP2.textContent = `${i.Telefono}`;
     img.setAttribute("src", i.img)
-    img.setAttribute("width", "90%")
-    img.setAttribute("padding", "10px")
+    img.setAttribute("width", "60%")
+    img.setAttribute("padding", "5px")
     img.setAttribute("margin", "auto")
+
+    const orari = i.Orari;
+    console.log(orari);
+    for (const x of orari) {
+      const li = document.createElement("li");
+      li.textContent = x;
+      ul.appendChild(li);
+      
+    }
 
     console.log(myH1);
     article.appendChild(myH1);
     article.appendChild(myh3)
     article.appendChild(img);
+    article.appendChild(myP);
+    article.appendChild(myP2);
     section.appendChild(article);
+    article.appendChild(ul);
     
   }
 
